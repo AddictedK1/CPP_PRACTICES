@@ -17,7 +17,7 @@ int search(int arr[], int size, int key)  {
     }
     return -1;
 }
-
+// retuens integer
 int insertion(int arr[], int &size, int capacity,int key, int index)  {
 
     if(size >= capacity)  {
